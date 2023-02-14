@@ -1,0 +1,22 @@
+{
+  "name": "soft-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js --dev",
+    "build:css": "tailwindcss -i ./tailwind.css -o ./src/static/css/tailwind.css",
+    "watch:css": "tailwindcss -i ./tailwind.css -o ./src/static/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4",
+    "express": "^4.18.2",
+    "open": "^8.4.0",
+    "ip": "^1.1.8",
+    "localtunnel": "^2.0.2"
+  }
+}

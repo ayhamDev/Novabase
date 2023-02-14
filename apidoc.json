@@ -1,0 +1,8 @@
+{
+    "name": "Novabase REST API.",
+    "version": "1.0.0",
+    "description": "This is Novabase rest api docs",
+    "template": {
+        "withCompare": false
+    }
+}
